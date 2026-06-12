@@ -18,8 +18,9 @@ Ensure your local directory structure mirrors the following layout before execut
 ├── run_simulations.py          # Generates structural firefront merging shapes
 ├── run_convergence.py          # Performs grid refinement validation
 ├── run_comparision.py          # Benchmarks model against empirical CSV datasets
-├── 1dataset.csv ... 6dataset.csv # Extracted Lagrangian validation coordinate sheets
-└── images/                     # Saved output plots for markdown rendering
+└── data_lagrangian_webplotdigitizer/
+    ├── 1dataset.csv ... 6dataset.csv # Extracted Lagrangian validation coordinate sheets
+└── images.zip/                     # Saved output plots for markdown rendering
     ├── Figure_1.png            # Line and Spot Fire Merger sequence
     ├── Figure_2.png            # Unburned Fuel Pocket tracking sequence
     ├── Figure_3.png            # Three Front Scalloped Merger grid view
